@@ -29,167 +29,121 @@ AFTER CBBH
 
 =======================================================================
 
-# **🗓️ Month-by-Month Reverse Engineering Learning Plan**  
-*(Only Reverse Engineering, No Binary Exploitation)*  
-
-This **4-month** structured plan will take you from **beginner to advanced** in Reverse Engineering. You’ll start with **basic tools**, move to **CrackMe solving**, then **advanced debugging**, and finally **real-world software analysis & malware analysis basics**.  
+Here's your updated **4-month Reverse Engineering Plan** with specific topics and learning resources clearly written next to them.  
 
 ---
 
+# **🗓️ Month-by-Month Reverse Engineering Learning Plan with Resources**  
+*(Focus: Reverse Engineering, No Binary Exploitation)*  
+
 ## **📌 Month 1: Reverse Engineering Foundations**  
-🎯 **Goal:** Learn the basics of Reverse Engineering, Assembly, Disassembly, and Debugging.  
+🎯 **Goal:** Learn the basics of Assembly, Debugging, and Disassembly.
 
 ### **📅 Week 1: Introduction & Setup**  
-✅ **Watch The Cyber Expert’s Reverse Engineering Video** *(Just an overview to understand what RE is about)*  
-✅ **Install Tools:** Ghidra, IDA Free, x64dbg, OllyDbg, Radare2, PE-bear, Detect-It-Easy  
-✅ **Learn x86 Assembly Basics:**  
-   - Registers (EAX, EBX, ECX, etc.)  
-   - Stack & Memory Layout (Push, Pop, Call, Ret)  
-✅ **Practice:** Write small C programs, compile them, and analyze them using `objdump` and `Ghidra`.  
+**Topics:**  
+1. Introduction to Reverse Engineering  
+   - **Resource:** Watch *[The Cyber Expert’s RE Video](https://www.youtube.com/@thecyberexpert)*  
+2. x86 Assembly Basics  
+   - **Resource:** *[OSDev x86 Assembly Tutorial](https://wiki.osdev.org/X86_Assembly_Tutorial)*  
+3. Setting up Tools  
+   - **Tools to Install:** Ghidra, IDA Free, x64dbg, OllyDbg, Radare2, PE-bear, Detect-It-Easy  
 
-### **📅 Week 2: LiveOverflow’s Reverse Engineering Series (Episode 1-8)**  
-✅ **Follow LiveOverflow’s RE playlist (only Reverse Engineering episodes)**  
-✅ **Learn Debugging with GDB & IDA Free**  
-✅ **Understand how function calls & loops look in Assembly**  
-✅ **Analyze simple compiled binaries with Ghidra/IDA**  
+### **📅 Week 2: Understanding Debugging & Assembly**  
+**Topics:**  
+1. Basics of Debugging  
+   - **Resource:** *[LiveOverflow Reverse Engineering Series (Ep 1-8)](https://www.youtube.com/c/LiveOverflow)*  
+2. Assembly Code Analysis  
+   - **Resource:** PwnCollege *[Reverse Engineering Module](https://pwn.college/)*  
 
 ### **📅 Week 3: Hands-on Debugging (x64dbg, OllyDbg, GDB)**  
-✅ **Learn how to attach a debugger to a running process**  
-✅ **Understand breakpoints & step-by-step execution**  
-✅ **Reverse Engineer basic programs (e.g., password checkers)**  
-✅ **Start PwnCollege’s Reverse Engineering module (Beginner challenges)**  
+**Topics:**  
+1. Debugging Basics  
+   - **Resource:** *[GDB Debugging Guide (LiveOverflow)](https://www.youtube.com/c/LiveOverflow)*  
+2. Using x64dbg & OllyDbg  
+   - **Resource:** *[x64dbg Official Documentation](https://x64dbg.com/)*  
 
-### **📅 Week 4: First CrackMes (Beginner Level)**  
-✅ **Solve at least 5 beginner-level CrackMes from Crackmes.one**  
-✅ **Use static analysis (Ghidra, IDA) before using debuggers**  
-✅ **Take notes for each solved challenge**  
-✅ **Understand function hooks & string manipulation in binaries**  
-
-📌 **By the end of Month 1, you will have:**  
-✔️ Installed & understood the main RE tools  
-✔️ Learned debugging & basic Assembly concepts  
-✔️ Solved your first beginner-level CrackMe  
+### **📅 Week 4: Solving First CrackMes (Beginner Level)**  
+**Topics:**  
+1. Solving Beginner-Level CrackMes  
+   - **Resource:** *[CrackMes.one](https://crackmes.one/)*  
+2. Analyzing Binaries with Tools  
+   - **Resource:** *[PE-bear Mini Guide](https://www.hexacorn.com/blog/2018/12/26/pe-bear-a-mini-tutorial/)*  
 
 ---
 
 ## **📌 Month 2: CrackMe Challenges & Advanced Debugging**  
-🎯 **Goal:** Improve debugging skills, solve more CrackMes, and explore software structures.  
+🎯 **Goal:** Strengthen debugging skills and explore software structures.
 
-### **📅 Week 5: More CrackMes (Beginner Level)**  
-✅ **Solve 10 more beginner-level CrackMes**  
-✅ **Use PE-bear & Detect-It-Easy to inspect binary headers**  
-✅ **Identify string obfuscation & function redirection tricks**  
+### **📅 Week 5: More Beginner-Level CrackMes**  
+**Topics:**  
+1. CrackMe Solving Practice  
+   - **Resource:** *[Lena151 Reverse Engineering Tutorials](https://tuts4you.com/download.php?list.17)*  
 
 ### **📅 Week 6: Intermediate-Level CrackMes**  
-✅ **Move to "Intermediate" difficulty CrackMes**  
-✅ **Use IDA Pro & Ghidra for decompilation analysis**  
-✅ **Practice modifying binaries using a hex editor**  
+**Topics:**  
+1. Intermediate CrackMes  
+   - **Resource:** *[RE for Beginners Book by Dennis Yurichev](https://beginners.re/)*  
 
-### **📅 Week 7: Reverse Engineering PE File Structures**  
-✅ **Learn about Portable Executable (PE) File Format**  
-✅ **Understand Sections (TEXT, DATA, IMPORTS, EXPORTS, etc.)**  
-✅ **Analyze PE headers with PEStudio & PE-bear**  
+### **📅 Week 7: PE File Structures**  
+**Topics:**  
+1. Understanding PE File Format  
+   - **Resource:** *[Microsoft PE File Format Docs](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)*  
 
-### **📅 Week 8: Software Modification & Patching**  
-✅ **Learn how to patch programs in x64dbg**  
-✅ **Modify execution flow using breakpoints**  
-✅ **Write a simple keygen for a CrackMe challenge**  
-
-📌 **By the end of Month 2, you will have:**  
-✔️ Stronger debugging & disassembly skills  
-✔️ Solved multiple intermediate-level CrackMes  
-✔️ Understood PE file structures & binary patching  
+### **📅 Week 8: Binary Modification & Patching**  
+**Topics:**  
+1. Modifying Program Behavior  
+   - **Resource:** *[x64dbg Binary Patching Tutorials](https://www.youtube.com/@crackthec0de)*  
 
 ---
 
 ## **📌 Month 3: Advanced Reverse Engineering & Software Cracking**  
-🎯 **Goal:** Reverse-engineer real-world software & learn about anti-debugging techniques.  
+🎯 **Goal:** Learn about Anti-Debugging, Obfuscation, and Software Keygenning.
 
-### **📅 Week 9: Deep Debugging with OllyDbg & x64dbg**  
-✅ **Analyze advanced program flow using x64dbg**  
-✅ **Identify & bypass conditional jumps**  
-✅ **Practice advanced breakpoints & memory analysis**  
+### **📅 Week 9: Debugging & Anti-Debugging**  
+**Topics:**  
+1. Advanced Debugging Techniques  
+   - **Resource:** *[Anti-Debugging Guide (Apriorit)](https://www.apriorit.com/dev-blog/316-anti-debugging-and-anti-reverse-engineering-tricks)*  
 
-### **📅 Week 10: Reverse Engineering Obfuscated Binaries**  
-✅ **Understand how obfuscation techniques work**  
-✅ **Solve 5+ CrackMes with code obfuscation**  
-✅ **Learn how encryption & packing affects Reverse Engineering**  
+### **📅 Week 10: Obfuscated Code Analysis**  
+**Topics:**  
+1. Analyzing Obfuscated Binaries  
+   - **Resource:** Use Ghidra, IDA, and Debuggers to understand obfuscation.
 
-### **📅 Week 11: Anti-Debugging & Protection Mechanisms**  
-✅ **Study common anti-debugging techniques (IsDebuggerPresent, timing checks)**  
-✅ **Bypass anti-debugging using ScyllaHide**  
-✅ **Analyze & defeat anti-reversing techniques**  
+### **📅 Week 11: Solving Advanced CrackMes**  
+**Topics:**  
+1. Advanced-Level CrackMes  
+   - **Resource:** *[CrackMes.de Challenges](https://crackmes.de/)*  
 
-### **📅 Week 12: Keygenning & License Bypass Techniques**  
-✅ **Understand serial key algorithms & key verification logic**  
-✅ **Modify & patch protected software**  
-✅ **Try creating keygens for CrackMe challenges**  
-
-📌 **By the end of Month 3, you will have:**  
-✔️ Learned how to deal with obfuscation & anti-debugging  
-✔️ Gained experience in keygenning & serial patching  
-✔️ Become comfortable with analyzing protected binaries  
+### **📅 Week 12: Keygenning & License Bypass**  
+**Topics:**  
+1. Keygenning Basics  
+   - **Resource:** *[CrackMe Keygen Tutorials](https://crackmes.one/)*  
 
 ---
 
 ## **📌 Month 4: Real-World Applications & Malware Analysis Basics**  
-🎯 **Goal:** Work on real-world software analysis & introduce malware analysis.  
+🎯 **Goal:** Reverse real-world software and analyze malware statically.
 
-### **📅 Week 13: Reverse Engineering Open-Source Software**  
-✅ **Pick an open-source project, compile it, and reverse-engineer its binary**  
-✅ **Compare source code with decompiled code in Ghidra/IDA**  
-✅ **Learn about symbol resolution & function signatures**  
+### **📅 Week 13: Reverse Engineering Open Source Software**  
+**Topics:**  
+1. Analyze Open-Source Projects  
+   - **Resource:** *[Compile & Reverse Open-Source Code](https://github.com/)*  
 
-### **📅 Week 14: Malware Analysis (Static Analysis Only)**  
-✅ **Analyze real-world malware samples (from MalwareBazaar or ANY.RUN)**  
-✅ **Identify malicious API calls & obfuscated payloads**  
-✅ **Use Ghidra & PEStudio to inspect malware binaries**  
+### **📅 Week 14: Malware Analysis Basics (Static)**  
+**Topics:**  
+1. Static Malware Analysis  
+   - **Resource:** *[ANY.RUN Malware Tutorials](https://www.youtube.com/@anyrun)*  
 
-### **📅 Week 15: Developing Your Own CrackMes**  
-✅ **Write a small program with anti-debugging tricks**  
-✅ **Challenge others to solve it (CTF members, online RE forums)**  
-✅ **Analyze their approaches & improve your protection techniques**  
+### **📅 Week 15: Developing Custom CrackMes**  
+**Topics:**  
+1. Create Your Own CrackMes with Anti-Debugging  
+   - **Resource:** Use x64dbg, PE-bear, and Ghidra for developing challenges.  
 
-### **📅 Week 16: Final Review & Reverse Engineering Project**  
-✅ **Work on a personal Reverse Engineering project**  
-✅ **Write a research blog or detailed report on your findings**  
-✅ **Summarize key learnings & plan for future advanced topics**  
-
-📌 **By the end of Month 4, you will have:**  
-✔️ Reversed a real-world program & analyzed malware  
-✔️ Created your own CrackMe challenge  
-✔️ Developed advanced debugging & anti-reversing techniques  
+### **📅 Week 16: Final Project & Blog Writeup**  
+**Topics:**  
+1. Reverse Engineering Personal Project  
+   - **Resource:** Use all the knowledge gathered to reverse a complex software.  
 
 ---
 
-# **🎯 What You Will Achieve in 4 Months**
-✅ **Mastery over Reverse Engineering tools (Ghidra, IDA, x64dbg, etc.)**  
-✅ **Ability to analyze, modify, and debug compiled programs**  
-✅ **Understanding of PE file structures & software protection techniques**  
-✅ **Experience in malware analysis & reversing real-world software**  
-
----
-
-# **🔧 Essential Tools for Reverse Engineering**
-| Tool | Purpose |
-|------|---------|
-| **Ghidra** | Static analysis & decompilation |
-| **IDA Free** | Disassembly & code exploration |
-| **x64dbg** | Debugging & patching |
-| **OllyDbg** | Debugging (32-bit programs) |
-| **Radare2** | Command-line reverse engineering |
-| **Detect-It-Easy** | Binary file type analysis |
-| **PE-bear** | Portable Executable file analysis |
-| **PEStudio** | Malware analysis |
-
----
-
-# **🚀 Next Steps After 4 Months**
-- **Continue solving CrackMes (Hard level).**  
-- **Work on more advanced malware analysis (dynamic analysis).**  
-- **Explore reversing Android apps using Frida & JADX (if interested).**  
-- **Participate in Reverse Engineering CTF challenges.**  
-
-💡 **This structured plan will make you a strong Reverse Engineer in 4 months.** Stick to it, and you’ll develop **deep technical skills** in RE! 🚀  
-
-Let me know if you need any changes or additional resources! 😃
+💡 **This plan ensures you know exactly what to learn, from where, and when. Stick to it, and you'll build a solid foundation in Reverse Engineering.** Let me know if further adjustments are needed! 🚀
