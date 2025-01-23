@@ -27,6 +27,7 @@ AFTER BOARDS:
 
 AFTER CBBH
 
+
 =======================================================================
 
 Here's your updated **4-month Reverse Engineering Plan** with specific topics and learning resources clearly written next to them.  
@@ -34,7 +35,7 @@ Here's your updated **4-month Reverse Engineering Plan** with specific topics an
 ---
 
 # **🗓️ Month-by-Month Reverse Engineering Learning Plan with Resources**  
-*(Focus: Reverse Engineering, No Binary Exploitation)*  
+*(Focus: Reverse Engineering)*  
 
 ## **📌 Month 1: Reverse Engineering Foundations**  
 🎯 **Goal:** Learn the basics of Assembly, Debugging, and Disassembly.
@@ -145,5 +146,7 @@ Here's your updated **4-month Reverse Engineering Plan** with specific topics an
    - **Resource:** Use all the knowledge gathered to reverse a complex software.  
 
 ---
+My Songs 
 
-💡 **This plan ensures you know exactly what to learn, from where, and when. Stick to it, and you'll build a solid foundation in Reverse Engineering.** Let me know if further adjustments are needed! 🚀
+   - **Live:** Watch *[Playlist 1]([https://www.youtube.com/@thecyberexpert](https://youtube.com/playlist?list=PL40T0C7hFv82AOZwRQTgCToU16E9FtDgZ&feature=shared))*
+   - **Live:** Watch *[Playlist 2 New]([https://youtube.com/playlist?list=PL40T0C7hFv80jcVVP0dV2VPkSMic6RHsH&feature=shared))*
