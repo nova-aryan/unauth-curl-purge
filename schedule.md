@@ -148,5 +148,6 @@ Here's your updated **4-month Reverse Engineering Plan** with specific topics an
 ---
 My Songs 
 
-   - **Live:** Watch *[Playlist 1]([https://www.youtube.com/@thecyberexpert](https://youtube.com/playlist?list=PL40T0C7hFv82AOZwRQTgCToU16E9FtDgZ&feature=shared))*
-   - **Live:** Watch *[Playlist 2 New]([https://youtube.com/playlist?list=PL40T0C7hFv80jcVVP0dV2VPkSMic6RHsH&feature=shared))*
+- **Live:** Watch [Playlist 1](https://youtube.com/playlist?list=PL40T0C7hFv82AOZwRQTgCToU16E9FtDgZ&feature=shared)
+- **Live:** Watch [Playlist 2 New](https://youtube.com/playlist?list=PL40T0C7hFv80jcVVP0dV2VPkSMic6RHsH&feature=shared)
+
