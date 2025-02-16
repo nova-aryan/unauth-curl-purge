@@ -34,6 +34,9 @@ Here's your updated **4-month Reverse Engineering Plan** with specific topics an
 
 ---
 
+### ** At Morning Reverse Engineering 7 Hour / At Night Bug Hunting 7 Hour ** 
+
+
 # **🗓️ Month-by-Month Reverse Engineering Learning Plan with Resources**  
 *(Focus: Reverse Engineering)*  
 
